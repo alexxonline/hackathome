@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:text="Nombre del usuario"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserNameTextView"
+        android:gravity="right"
+        android:layout_marginBottom="4dp" />
+    <TextView
+        android:text="Titulo de la evidencia"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EvidenceTitleTextView"
+        android:gravity="center"
+        android:layout_marginBottom="4dp" />
+    <TextView
+        android:text="Estado evidencia"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EvidenceStatusTextView"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+    <TextView
+        android:text="@string/Description"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginBottom="8dp" />
+    <android.webkit.WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EvidenceDescriptionWebView" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EvidenceImageView"
+        android:scaleType="fitCenter" />
+</LinearLayout>
